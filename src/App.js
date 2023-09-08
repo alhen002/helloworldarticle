@@ -1,6 +1,13 @@
 import React from "react";
 import "./styles.css";
 
+//components
+import HelloWorldArticle from "./components/HelloWorldArticle";
+
 export default function App() {
-  return <div>Replace me with your Component!</div>;
+  return (
+    <>
+      <HelloWorldArticle />
+    </>
+  );
 }
